@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="LdapSso.Services.LdapSsoService" CodeBehind="LdapSsoService.svc.cs" %>

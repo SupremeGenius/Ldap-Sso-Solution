@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e83dc2d8-227c-4e32-b2ca-0c50f5245f6c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:6041/LdapSsoService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="LdapSsoService.disco" MetadataType="Disco" ID="daceb618-f46e-4446-bfbb-7c0a870c29f1" SourceId="1" SourceUrl="http://localhost:6041/LdapSsoService.svc?disco" />
+    <MetadataFile FileName="LdapSsoService4.xsd" MetadataType="Schema" ID="affb61e4-e4b8-4b79-8c07-c632b370b08e" SourceId="1" SourceUrl="http://localhost:6041/LdapSsoService.svc?xsd=xsd4" />
+    <MetadataFile FileName="LdapSsoService.xsd" MetadataType="Schema" ID="8f2265f9-4072-4438-ac01-21ece3336f22" SourceId="1" SourceUrl="http://localhost:6041/LdapSsoService.svc?xsd=xsd2" />
+    <MetadataFile FileName="LdapSsoService.wsdl" MetadataType="Wsdl" ID="86d4d56f-0cb0-47ec-b492-02c80ca6335f" SourceId="1" SourceUrl="http://localhost:6041/LdapSsoService.svc?wsdl" />
+    <MetadataFile FileName="LdapSsoService1.xsd" MetadataType="Schema" ID="441cbc61-fe8a-4072-85ba-5600bf75edc1" SourceId="1" SourceUrl="http://localhost:6041/LdapSsoService.svc?xsd=xsd0" />
+    <MetadataFile FileName="LdapSsoService2.xsd" MetadataType="Schema" ID="202a24f2-97c3-4390-9a08-b26f6a2ce495" SourceId="1" SourceUrl="http://localhost:6041/LdapSsoService.svc?xsd=xsd1" />
+    <MetadataFile FileName="LdapSsoService3.xsd" MetadataType="Schema" ID="d26e374f-fd25-414e-acae-d9b6a03095f2" SourceId="1" SourceUrl="http://localhost:6041/LdapSsoService.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
